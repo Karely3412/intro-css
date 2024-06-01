@@ -1,0 +1,55 @@
+/* .sibling-one {
+  display: inline;
+}
+
+.page-heading {
+  display: inline;
+  background-color: blue;
+  color: white;
+}
+
+img {
+  display: inline;
+  width: 2.5%;
+} */
+
+/* .page-heading {
+  display: block;
+  width: 50%;
+  margin: auto;
+  background-color: blue;
+  color: white;
+}
+
+img {
+  display: block;
+  padding: 36px;
+  background-color: blue;
+  margin: auto;
+  width: 25%;
+} */
+
+body {
+  background-color: rgb(0, 80, 50);
+}
+
+.page-content {
+  width: 40%;
+  margin: 48px auto;
+  background-color: white;
+  padding: 24px;
+}
+
+img {
+  width: 50%;
+  float: right;
+  margin: 48px;
+}
+
+.page-description {
+  clear: left;
+  line-height: 48px;
+  font-size: 24px;
+  text-align: justify;
+  margin: 48px;
+}

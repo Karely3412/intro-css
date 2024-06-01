@@ -1,0 +1,17 @@
+* {
+  font-size: 30px;
+  border: 1px solid rgb(232, 6, 6);
+}
+
+[align="right"] {
+  text-decoration: underline;
+}
+
+#special-header {
+  text-align: right;
+  background-color: rgb(233, 8, 128);
+}
+
+h1.this-tag {
+  color: greenyellow;
+}

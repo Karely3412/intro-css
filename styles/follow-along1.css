@@ -1,0 +1,30 @@
+/* .container {
+  background-color: blue;
+} */
+
+.container > .top-wrapper {
+  /* background: linear-gradient(#ff0000, #ffffff); */
+  background-image: url
+    (
+      "https://images.unsplash.com/photo-1716066508192-7ccd1a71ac1c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxfDB8MXxyYW5kb218MHx8fHx8fHx8MTcxNzAxMTQ1OA&ixlib=rb-4.0.3&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=1080"
+    );
+
+  background: rgb(255, 254, 10);
+  background: linear-gradient(
+    90deg,
+    rgba(255, 254, 10, 1) 9%,
+    rgba(255, 0, 122, 1) 92%
+  );
+}
+
+.container > .list-container {
+  background-color: rgb(255, 0, 0, 0.5);
+}
+
+.container > .list-container > ul > li {
+  box-shadow: 5px 10px #d203ce;
+  background-image: url("/images/K.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100px;
+}
