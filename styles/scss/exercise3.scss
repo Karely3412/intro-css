@@ -1,0 +1,12 @@
+.container {
+  h1 {
+    color: red($color: #ff0000);
+    a {
+      text-decoration: none;
+    }
+  }
+
+  p {
+    font-size: 30px;
+  }
+}

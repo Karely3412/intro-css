@@ -1,0 +1,32 @@
+:root {
+  --primary-front: "Arial", sans-serif;
+}
+
+* {
+  margin: 0;
+}
+
+.hero-img {
+  background: var(--gradient-theme);
+  background-color: var(--base-color);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: var(--primary-front);
+}
+
+.hero-msg-con {
+  border: var(--thick-border);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 250px;
+  width: 250px;
+}
+
+.hero-msg {
+  text-align: center;
+  color: var(--accent-color);
+  font-size: 48px;
+}

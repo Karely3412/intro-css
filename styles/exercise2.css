@@ -1,0 +1,9 @@
+.parent {
+  display: flex;
+  flex-direction: row;
+}
+.parent > .container > .child {
+  justify-content: space-evenly;
+  height: 120px;
+  width: 80px;
+}
