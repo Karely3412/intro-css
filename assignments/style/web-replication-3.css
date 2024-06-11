@@ -236,8 +236,8 @@ body {
   position: absolute;
   z-index: 1;
   bottom: 63%;
-  right: 13%;
-  font-size: 23rem;
+  right: 16%;
+  font-size: 17rem;
   opacity: 55%;
 }
 
@@ -317,4 +317,14 @@ body {
   right: 21.5%;
   font-size: 25px;
   cursor: pointer;
+  text-decoration: none;
+}
+
+.web-repication3-container
+  > .lower-content-wrapper
+  > .login-wrapper
+  > button
+  > a {
+  color: #c2c2c2;
+  text-decoration: none;
 }
